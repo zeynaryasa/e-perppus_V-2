@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*ID*/
+
+
+footer{
+    text-align: center;
+    color: white;
+    padding-left: 230px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
+}
+
+body{
+    background: #615F5F;
+}
+
+.top{
+    position: absolute;
+    margin: 10px 10px 10px 400px;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+
+.sidebar{
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: #373636;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #171616;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 18px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.sidebar ul a:hover{
+    border-radius: 20px;
+    padding-left: 70px;
+    background:green;
+    text-decoration: none;
+    width: 105%;
+    border: 1px solid white;
+    z-index: 99;
+}
+
+.sidebar ul a:active{
+    border-right: 2px solid green;
+}
+
+.section{
+    width: 60%;
+    height: 100%;
+    background: #171616;
+    background-position: center;
+    margin-left: 400px;
+}
+.section ul{
+    box-sizing: border-box;
+    display:block;
+    text-decoration: none;
+    color: white;
+    height: 100% ;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.box{
+    padding: 10px;
+    color: white;
+}
+.box::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#img-logo{
+    width: 20%;
+    height: 20%;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.btn-tbh:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+.btn-tbh:active{
+    transform: scale(1);
+}
+
+.box-table{
+    padding: 10px;
+}
+
+.font-pinjam{
+    font-size: 12px;
+}
+
+
+.box h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box h2{
+    text-align: center;
+    margin: 10px;
+}
+
+thead{
+    text-align: left;
+}
+
+
+tbody tr td{
+    padding-top: 5px;
+}
+
+.box-tbhdt{
+    width: 400px;
+    margin: 10px auto;
+}
+.box-tbhdt h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.tbh-content{
+    padding: 1px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.tbh-img{
+    width: 100%;
+    margin-bottom:10px;
+}
+.box-tbhdt h5{
+    text-align: right;
+}
+.btn-val{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background: green;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-val:hover{
+    cursor: pointer;
+}
+
+.btn-val:active{
+    transform: scale(0.95);
+}
+#status{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btn-read{
+    margin: 20px;
+}
+
+.cek:hover{
+cursor: pointer;
+}
+.btn-all{
+    text-align: center; 
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 100px;
+    height: 30px;
+    background: #373636;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-all:hover{
+    cursor: pointer;
+}
+.btn-all:active{
+    transform: scale(0.95);
+    background: green;
+}
+
+.btn-kbl{
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background:red;
+    border-radius: 10px;
+}
+
+.btn-kbl:hover{
+    cursor: pointer;
+}
+.btn-kbl:active{
+    transform: scale(0.95);
+    background: orange;
+}
+
+.btn-status-belum{
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    background: orange;
+    color: white;
+    border: none;
+}
+
+.btn-status-kembali{
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.btn-cetak{
+   width: 50px;
+   height: 30px;
+   color: black;
+}
+
+.col-4{
+    margin: 8px;
+    text-align: center;
+    background:#171616;
+    width: 20%;
+    height: 280px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: left;
+}
